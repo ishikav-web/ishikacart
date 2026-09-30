@@ -1,0 +1,89 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+            <title>Ishika Cart - E-Commerce Website</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <header>
+                <nav class="navbar">
+                  <h1 class="logo">IshikaCart</h1>
+                  <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                  </ul>
+                  <div class="cart">
+                    Cart: <span id="cart-count">0</span>
+                  </div>
+                </nav>
+            </header>
+            <section id="home" class="hero">
+                <div>
+                    <h2>Shop Smart. Live Better.</h2>
+                    <p>Discover amazing products at good prices</p>
+                    <button onclick="shopNow()">Shop Now</button>
+                </div>
+            </section>
+            <section id="products"
+            class="products-section">
+        <h2>Our Products</h2>
+        <div class="products-container">
+            <div class="product-card">
+                <div class="product-image"></div>
+        <h3>Wireless Headphones</h3>
+        <p>Price 1,499</p>
+        <button onclick="addToCart()">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <h3>Smart Watch</h3>
+                <p>Price 2,499</p>
+                <button onclick="addToCart()">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <div class="product-image"></div>
+            <h3>Running Shoes</h3>
+            <p> Price 1,999</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <div class="product-image"></div>
+            <h3>Travel Backpack</h3>
+            <p> Proce 999</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <div class="product-image"></div>
+            <h3>Stylish Sunglasses</h3>
+            <p> Price 89</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <div class="product-image"></div>
+            <h3>Laptop Stand</h3>
+            <p> Price 699</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+        </div>
+        </section>
+        <section id="about" class="about">
+            <h2>About Ishika Cart</h2>
+            <p>Ishika cart is a simple shopping website created using HTML, CSS, & JavaScript. Our goal is to provide a simple and enjoyable shopping experience.</p>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>Email: ishikacart@ex.com</p>
+            <p>Phone: 9898989898</p>
+        </section>
+        <footer>
+            <p>@2026 IshikaCart. All Rights Reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+        </body>
+    </html>
+</DOCTYPE>
